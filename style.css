@@ -1,0 +1,79 @@
+/* General reset for margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: orange; /* Orange background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container to center title and form */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Title styling */
+h1 {
+    font-size: 2.5rem; 
+    color: white;
+    text-align: center;
+    margin-bottom: 20px; /* Space between title and form */
+}
+
+/* Form container styling */
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white; /* White background for the form */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners for modern look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    width: 300px; /* Fixed width for the form */
+}
+
+/* Search bar styling */
+.search-bar {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none; /* No borders */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Search button styling */
+.search-button {
+    width: 100%;
+    padding: 10px;
+    border: none; /* No borders */
+    border-radius: 5px; /* Rounded corners */
+    background-color: orange; /* Match the background */
+    color: white;
+    font-size: 16px;
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Button hover effect */
+.search-button:hover {
+    background-color: darkorange; /* Darker orange on hover */
+}
