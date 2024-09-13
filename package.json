@@ -1,0 +1,15 @@
+{
+  "name": "flight-tracker",
+  "version": "1.0.0",
+  "description": "This project is a simple web application for tracking flight data using the [Airlabs](https://airlabs.co/) API. Users can search for flights by number and view real-time information about the flight, such as its speed, altitude, and status.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "serpapi": "^2.1.0"
+  }
+}
